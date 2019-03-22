@@ -56,10 +56,11 @@ import ProfileScreen from './pages/setting/ProfileScreen';
 import SettingsScreen from './pages/setting/SettingsScreen';
 import TableScreen from './pages/setting/TableScreen';
 import TableScreen2 from './pages/setting/TableScreen2';
+import CustomNavScreen from './pages/setting/CustomNavScreen';
 import HomeScreen from './pages/home/HomeScreen';
 import DetailsScreen from './pages/home/DetailsScreen';
-import CustomNavScreen from './pages/setting/CustomNavScreen';
 import ModalScreen from './pages/home/ModalScreen';
+import LinkOCScreen from './pages/home/LinkOCScreen';
 
 import AuthLoadingScreen from './pages/authorize/AuthLoadingScreen';
 import SignInScreen from './pages/authorize/SignInScreen';
@@ -74,7 +75,8 @@ import GestureHandleScreen from './pages/basefunc/GestureHandleScreen';
 const HomeStack = createStackNavigator(
   {
     Home: HomeScreen,
-    Details: DetailsScreen
+    Details: DetailsScreen,
+    LinkOCS: LinkOCScreen
   },{
     initialRouteName: 'Home',//指定初始页面
     /* The header config from HomeScreen is now here */
